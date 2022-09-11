@@ -1,0 +1,130 @@
+@font-face {font-family: idroid;
+src: url(fontes/idroid.otf);}
+
+body {
+    background-color: rgb(85, 206, 111);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgb(110 188 107 / 62%), rgb(7 105 12 / 78%));
+    color: white;
+    margin:auto;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    padding:20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header h2 {   
+    font-size: 13px;
+}
+
+.navegacao {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+ul.navegacao a {
+    padding: 15px;
+    font-size: 20px;
+}
+
+a.ref {
+    text-decoration: none;
+    color: rgb(2, 99, 7);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 800px;
+  }
+
+h1, h2 {
+    padding: 20px 0px 0px 20px;
+    margin: 0px;
+}
+
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 20px;
+    margin:0px;
+    font-size: 18px;
+  }
+
+.droidstyle {
+    font-family: idroid;
+    color: rgb(2, 99, 7);
+}
+
+.droidstyle2 {
+    font-family: idroid;
+    background-image: linear-gradient(to right, rgba(18, 167, 25, 0.65), rgba(162, 238, 155, 0.35));
+    color: rgb(2, 99, 7);
+    margin:0px 0px 0px 20px;
+    padding:0px;
+}
+
+strong {
+    color: rgb(2,99,7)
+}
+
+div.videodroid {
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: rgb(0, 80, 0);
+    text-align: center; 
+}
+
+.respimage {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.listdroid {
+    Columns:2;
+    list-style-image:url(imagens/check-mark-10px.png);
+}
+
+.listversion {
+    background-color: white;
+    max-width: 800px;
+    margin: 15px 15px 0px 15px;
+}
+
+.titlelist {
+    background-color: rgb(6, 131, 33);
+    padding: 10px 0px 10px 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.listbox {
+    border-radius: 15px;
+    background-color: rgb(85, 206, 111);
+}
+
+footer {
+    background-color: rgb(0, 71, 0);
+    color: white;
+    text-align: center;
+    font-size: 8px;
+}
+
+footer h1 {
+    padding: 8px;
+}
+
+footer h1 strong {
+    color: white;
+}
