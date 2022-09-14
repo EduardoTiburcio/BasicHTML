@@ -29,7 +29,7 @@ div#container {
     flex-direction: row-reverse;
 }
 
-div#SearchBar {
+div#SearchBox {
     background-color: white;
     width: 630px;
     height: 50px;
@@ -39,7 +39,7 @@ div#SearchBar {
     flex-direction: row-reverse;
 }
 
-div#SearchBar img {
+div#SearchBox img {
     margin-right: 30px;
 }
 
@@ -55,4 +55,14 @@ div#BarCategories {
     width: 1350px;
     height: 50px;
     margin-top: 0px;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display:inline-flex
+}
+
+li {
+    padding: 15px;
 }
