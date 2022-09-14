@@ -5,18 +5,21 @@
     padding: 0px;
 }
 
+body {
+    width: 1350px;
+    height: auto;
+}
 
 div#callattention {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
-    width: 1350px;
-    height: 50px;
+    width: 100%;
+    height: 39px;
     background-color: #4B4D6B;
     text-align: center;
-    
 }
 
-div#MainNav {
+div#container {
     background-color: #000BE6;
     width: 1350px;
     height: 125px;
@@ -27,19 +30,29 @@ div#MainNav {
 }
 
 div#SearchBar {
-    background-color: #960404;
-    width: 780px;
+    background-color: white;
+    width: 630px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 25px;
     align-items: center;
-    text-align: center;
-    display: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#SearchBar img {
+    margin-right: 30px;
 }
 
 div#Logo {
     background-color: rgb(170, 102, 19);
     width: 125px;
     height: 125px;
-    margin-right: 66px;
-    
+    margin: 0px 108px 0px -320px;   
+}
+
+div#BarCategories {
+    background-color: black;
+    width: 1350px;
+    height: 50px;
+    margin-top: 0px;
 }
