@@ -5,23 +5,19 @@
     padding: 0px;
 }
 
-body {
-    width: 1350px;
-    height: auto;
-}
 
 div#callattention {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
     width: 100%;
     height: 39px;
-    background-color: #4B4D6B;
+    background-color: #EBBD1F;
     text-align: center;
 }
 
-div#container {
-    background-color: #000BE6;
-    width: 1350px;
+div#containerSearch {
+    background-color: #0547EB;
+    width: 100%;
     height: 125px;
     display: flex;
     justify-content: center;
@@ -31,8 +27,9 @@ div#container {
 
 div#SearchBox {
     background-color: white;
-    width: 630px;
+    width: 100%;
     height: 50px;
+    margin: 0px 220px 0px 105px;
     border-radius: 25px;
     align-items: center;
     display: flex;
@@ -46,23 +43,47 @@ div#SearchBox img {
 div#Logo {
     background-color: rgb(170, 102, 19);
     width: 125px;
-    height: 125px;
-    margin: 0px 108px 0px -320px;   
+    height: 125px; 
+    margin: 0px 0px 0px 55px;  
 }
 
 div#BarCategories {
-    background-color: black;
-    width: 1350px;
+    background-color: #07059E;
+    width: 100%;
     height: 50px;
-    margin-top: 0px;
+    
 }
 
 ul {
+    margin: 0px 0px 0px 75px;
     color: white;
     list-style-type: none;
     display:inline-flex
+
+    
 }
 
 li {
-    padding: 15px;
+    padding: 15px 34px 15px 26px; 
+}
+
+header, main, {
+    display: block;
+}  
+
+main {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+section#Produtos {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    text-align: center;
+    margin: auto;
+    border-color:black;
+    width: 840px;
+    height: auto;
 }
